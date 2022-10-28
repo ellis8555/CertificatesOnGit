@@ -1,0 +1,4 @@
+#carouselContainer img {
+    height: 80vh;
+    object-fit: scale-down;   
+}
