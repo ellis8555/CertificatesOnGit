@@ -1,9 +1,11 @@
-<div class="container">
-  <div class="bg-primary text-center p-3 mt-3">
-    <h3>Current projects</h3>
-    <div class="row">
-      <div class="col-md-6">1</div>
-      <div class="col-md-6">2</div>
-    </div>
-  </div>
+<div
+  class="container rounded shadow pt-3 pb-3 mt-5 bg-primary"
+  id="projectsContainer"
+>
+  <div id="projectSnippets"></div>
 </div>
+<script>
+  $("#projectSnippets").load(
+    "./Resources/pages/htmlSnippets/Projects/projectsSnippet.html"
+  );
+</script>
