@@ -2,3 +2,12 @@ body{
     background-color: rgb(109, 121, 121);
     padding-bottom: 50px;
 }
+
+.card {
+    margin:auto;
+}
+
+.icons img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
