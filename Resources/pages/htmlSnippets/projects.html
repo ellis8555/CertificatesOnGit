@@ -1,8 +1,13 @@
 <div class="container px-5 py-3 mt-5" id="projectsContainer">
-  <div id="projectSnippets"></div>
+  <div id="projectSnippets">
+    <p class="display-5 text-center">Projects</p>
+    <div id="personal"></div>
+    <div id="wywm"></div>
+  </div>
 </div>
 <script>
-  $("#projectSnippets").load(
-    "./Resources/pages/htmlSnippets/Projects/projectsSnippet.html"
+  $("#personal").load(
+    "./Resources/pages/htmlSnippets/Projects/personalSnippet.html"
   );
+  $("#wywm").load("./Resources/pages/htmlSnippets/Projects/wywmSnippet.html");
 </script>
