@@ -1,13 +1,49 @@
 body{
-    background-color: rgb(109, 121, 121);
-    padding-bottom: 50px;
+    background-image: url('../Images/port-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-bg{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-top: 1.5rem;
+}
+
+.web-dev-hobbies-bg{
+    background-color: rgba(50, 131, 210, .5);
 }
 
 .card {
     margin:auto;
 }
 
+.card-opacity{
+    background-color: rgba(50, 131, 210, .65);
+    color: white
+}
+
+.card-ul-opacity li{
+    background-color: rgba(50, 131, 210, .0);
+    color: white 
+}
+
+.card-footer-opacity{
+    background-color: rgba(50, 131, 210, 1);
+    color: white
+}
+
 .icons img {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+h4, [class~='display-5']{
+    color: white;
+}
+
+.success-opacity {
+    /* background-color: rgba(3, 3, 25, .85); */
+    background-color: rgba(50, 131, 210, .5);
+    color: white
 }
