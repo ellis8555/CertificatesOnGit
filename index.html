@@ -16,6 +16,7 @@
   </head>
   <body>
     <div class="body-bg">
+      <div id="main-heading"></div>
       <div id="certificateSlides"></div>
       <div id="about-me"></div>
       <div id="projects"></div>
@@ -29,6 +30,7 @@
     ></script>
     <script>
       $(document).ready(() => {
+        $("#main-heading").load("./Resources/pages/main-heading.html");
         $("#certificateSlides").load(
           "./Resources/pages/certificatesCarousel.html"
         );
