@@ -17,6 +17,7 @@
   <body>
     <div class="body-bg">
       <div id="main-heading"></div>
+      <div id="navbar"></div>
       <div id="about-me"></div>
       <div id="projects"></div>
       <div id="certificateSlides"></div>
@@ -31,11 +32,12 @@
     <script>
       $(document).ready(() => {
         $("#main-heading").load("./Resources/pages/main-heading.html");
+        $("#navbar").load("./Resources/pages/navbar.html");
+        $("#about-me").load("./Resources/pages/about-me.html");
+        $("#projects").load("./Resources/pages/projects.html");
         $("#certificateSlides").load(
           "./Resources/pages/certificatesCarousel.html"
         );
-        $("#about-me").load("./Resources/pages/about-me.html");
-        $("#projects").load("./Resources/pages/projects.html");
         $("#todos").load("./Resources/pages/todos.html");
         $("#hobbies").load("./Resources/pages/hobbies.html");
       });

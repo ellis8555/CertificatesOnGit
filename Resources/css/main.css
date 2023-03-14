@@ -1,3 +1,9 @@
+:root {
+    --bg-main-color: rgb(50, 131, 210);
+    --bg-main-color-zero-opacity: rgba(50, 131, 210, 0);
+    --bg-main-color-quarter-opacity: rgba(50, 131, 210, .25);
+}
+
 body{
     background-image: url('../Images/Backgrounds/port-bg.jpg');
     background-repeat: no-repeat;
@@ -10,10 +16,28 @@ body{
     padding-top: 1.5rem;
 }
 
+/* main-heading */
+
 .under-construction{
     background-color: rgba(255, 193, 7, 0.25);
     color: white;
 }
+
+/* navbar */
+
+.navbar-menu {
+    background-color: var(--bg-main-color-quarter-opacity);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color:white;
+}
+
+/* about-me */
 
 .contact-icon {
     position:absolute;
@@ -34,7 +58,7 @@ body{
 }
 
 .web-dev-hobbies-bg{
-    background-color: rgba(50, 131, 210, .25);
+    background-color: var(--bg-main-color-quarter-opacity);
 }
 
 .card {
@@ -42,17 +66,17 @@ body{
 }
 
 .card-opacity{
-    background-color: rgba(50, 131, 210, .25);
+    background-color: var(--bg-main-color-quarter-opacity);
     color: white
 }
 
 .card-ul-opacity li{
-    background-color: rgba(50, 131, 210, .0);
+    background-color: var(--bg-main-color-zero-opacity);
     color: white 
 }
 
 .card-footer-opacity{
-    background-color: rgba(50, 131, 210, 1);
+    background-color: var(--bg-main-color);
     color: white
 }
 
