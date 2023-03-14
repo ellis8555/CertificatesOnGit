@@ -37,6 +37,10 @@ body{
     color:white;
 }
 
+nav li:hover {
+    background-color: var(--bg-main-color);
+}
+
 /* about-me */
 
 .contact-icon {
