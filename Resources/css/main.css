@@ -15,6 +15,17 @@ body{
     color: white;
 }
 
+.contact-icon {
+    position:absolute;
+    transform: translateX(-2rem)
+}
+
+#linkedin-link::before {
+    position: absolute;
+   content: url(../Images/About-Me/linkedin-logo.png);
+    transform: translate(-1.5rem, .25rem )
+}
+
 .web-dev-hobbies-bg{
     background-color: rgba(50, 131, 210, .25);
 }
