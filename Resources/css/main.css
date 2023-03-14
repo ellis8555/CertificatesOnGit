@@ -20,6 +20,13 @@ body{
     transform: translateX(-2rem)
 }
 
+.email-icon {
+    height: 1.5rem;
+    width: 2rem;
+    color: white;
+    display: inline-block
+}
+
 #linkedin-link::before {
     position: absolute;
    content: url(../Images/About-Me/linkedin-logo.png);
