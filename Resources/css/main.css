@@ -30,7 +30,7 @@ body{
 #linkedin-link::before {
     position: absolute;
    content: url(../Images/About-Me/linkedin-logo.png);
-    transform: translate(-1.5rem, .25rem )
+    transform: scale(1.25) translate(-1.5rem, .25rem )
 }
 
 .web-dev-hobbies-bg{
