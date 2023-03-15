@@ -15,8 +15,8 @@
   </head>
   <body>
     <div class="body-bg">
-      <div id="main-heading"></div>
       <div id="navbar"></div>
+      <div id="construction-heading"></div>
       <div id="about-me"></div>
       <div id="projects"></div>
       <div id="certificateSlides"></div>
@@ -30,8 +30,10 @@
     ></script>
     <script>
       $(document).ready(() => {
-        $("#main-heading").load("./Resources/pages/main-heading.html");
         $("#navbar").load("./Resources/pages/navbar.html");
+        $("#construction-heading").load(
+          "./Resources/pages/construction-heading.html"
+        );
         $("#about-me").load("./Resources/pages/about-me.html");
         $("#projects").load("./Resources/pages/projects.html");
         $("#certificateSlides").load(
