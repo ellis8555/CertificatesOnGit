@@ -2,6 +2,8 @@
     --bg-main-color: rgb(50, 131, 210);
     --bg-main-color-zero-opacity: rgba(50, 131, 210, 0);
     --bg-main-color-quarter-opacity: rgba(50, 131, 210, .25);
+    --bg-main-color-half-opacity: rgba(50, 131, 210, .50);
+    --bg-underconstruction-text-color: yellow;
 }
 
 body{
@@ -21,6 +23,23 @@ body{
 .under-construction{
     background-color: rgba(255, 193, 7, 0.25);
     color: white;
+}
+
+.under-construction-text-color {
+    color: var(--bg-underconstruction-text-color)
+}
+
+.construction-ul-opacity {
+    background-color: var(--bg-main-color-half-opacity);
+}
+
+.construction-ul-opacity li>p:before {
+    content: " ";
+    width:10px;
+    height:10px;
+    display:inline-block;
+    margin-right: .5rem;
+    background-color: yellow;
 }
 
 /* navbar */
