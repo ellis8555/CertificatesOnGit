@@ -18,7 +18,7 @@ body{
     padding-top: 1.5rem;
 }
 
-/* main-heading */
+/* construction-heading */
 
 .under-construction{
     background-color: rgba(255, 193, 7, 0.25);
@@ -31,15 +31,6 @@ body{
 
 .construction-ul-opacity {
     background-color: var(--bg-main-color-half-opacity);
-}
-
-.construction-ul-opacity li>p:before {
-    content: " ";
-    width:10px;
-    height:10px;
-    display:inline-block;
-    margin-right: .5rem;
-    background-color: yellow;
 }
 
 /* navbar */
