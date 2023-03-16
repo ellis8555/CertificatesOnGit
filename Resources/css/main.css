@@ -3,7 +3,9 @@
     --bg-main-color-zero-opacity: rgba(50, 131, 210, 0);
     --bg-main-color-quarter-opacity: rgba(50, 131, 210, .25);
     --bg-main-color-half-opacity: rgba(50, 131, 210, .50);
+    --black-opacity: rgba(0,0,0,.75);
     --bg-underconstruction-text-color: yellow;
+    --bg-success: rgb(25, 135, 84);
 }
 
 body{
@@ -34,9 +36,15 @@ body{
 }
 
 /* navbar */
+#navbar {
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
 
 .navbar-menu {
     background-color: var(--bg-main-color-quarter-opacity);
+    transition: background-color .75s ease;
 }
 
 .navbar-toggler {
@@ -48,7 +56,13 @@ body{
 }
 
 nav li:hover {
-    background-color: var(--bg-main-color);
+    background-color: var(--black-opacity);
+}
+
+#auth-small-screen {
+    display: initial;
+    background-color: var(--bg-main-color-quarter-opacity);
+    transition: display 1s ease, background-color 1s ease;
 }
 
 /* about-me */
