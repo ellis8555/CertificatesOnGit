@@ -1,30 +1,3 @@
-import "./main.scss";
-import * as bootstrap from "bootstrap";
-import {
-  navbarElement,
-  aboutMeElement,
-  underConstructionElement,
-  projectsElement,
-  certificatesElement,
-  todosElement,
-  hobbiesElement,
-} from "./components/elements";
-
-// the root div in index.html for content to be injected
-const root = document.getElementById("root");
-
-root.append(navbarElement);
-root.append(underConstructionElement);
-root.append(aboutMeElement);
-root.append(projectsElement);
-root.append(certificatesElement);
-root.append(todosElement);
-root.append(hobbiesElement);
-
-window.addEventListener("scroll", () => {
-  navbarScrollOpacityChange();
-});
-
 const navbarScrollOpacityChange = () => {
   let scrollY = window.pageYOffset;
   const smallAuthClassList =
@@ -47,3 +20,11 @@ const navbarScrollOpacityChange = () => {
     getAuthMessageSmall.className = smallAuthClassList;
   }
 };
+
+const setNavBarScrollFade = () => {
+  window.addEventListener("scroll", () => {
+    navbarScrollOpacityChange();
+  });
+};
+
+export { setNavBarScrollFade };
