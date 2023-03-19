@@ -1,4 +1,4 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
 import { certificatesFRAG } from "./certificatesFRAG";
 import { carouselButtons } from "./certificates-methods/carousel-button-injector";
 
@@ -13,7 +13,7 @@ const certificates = `
     >With You With Me link</a
   >
 </p>
-<div class="w-75 mx-auto container" id="carouselContainer">
+<div class="w-75 mx-auto container pb-5" id="carouselContainer">
   <div
     id="carouselExampleIndicators"
     class="carousel slide"

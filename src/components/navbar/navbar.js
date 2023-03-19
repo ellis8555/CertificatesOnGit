@@ -1,4 +1,5 @@
-import { createRouteContainer } from "../../utilities/allEffects";
+import { createRouteContainer } from "../../utilities/allUtilities";
+import { navbarLinkItems } from "./navbar-methods/links-injector";
 
 const navbar = `
 <div
@@ -36,33 +37,7 @@ const navbar = `
 
     <div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
-        <li class="p-2 nav-item rounded">
-          <a href="#about-me" class="text-light text-decoration-none nav-link"
-            >About</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded">
-          <a href="#projects" class="text-light text-decoration-none nav-link"
-            >Projects</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded">
-          <a
-            href="#certificateSlides"
-            class="text-light text-decoration-none nav-link"
-            >Certificates</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded">
-          <a href="#todos" class="text-light text-decoration-none nav-link"
-            >Todos</a
-          >
-        </li>
-        <li class="p-2 nav-item rounded">
-          <a href="#hobbies" class="text-light text-decoration-none nav-link"
-            >Hobbies</a
-          >
-        </li>
+  ${navbarLinkItems}
       </ul>
     </div>
   </nav>
