@@ -1,12 +1,11 @@
-import { appendSingleElement } from "../allUtilities";
+import { appendSingleElement, submitContactMe } from "../allUtilities";
 import {
   homeElement,
   aboutMeElement,
   projectsElement,
   certificatesElement,
   todosElement,
-  hobbiesElement,
-  components,
+  contactElement,
 } from "../../components/allElements";
 
 const routeChange = () => {
@@ -34,8 +33,10 @@ const applyCorrectElement = (elementName) => {
     case "todosElement":
       appendSingleElement(root, todosElement);
       break;
-    case "hobbiesElement":
-      appendSingleElement(root, hobbiesElement);
+    case "contactElement":
+      appendSingleElement(root, contactElement);
+      // add listener for form submission
+      submitContactMe();
       break;
     default:
       appendSingleElement(root, homeElement);
