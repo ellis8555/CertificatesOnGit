@@ -21,14 +21,18 @@ const personalFRAG = `
               replays! <br />
               Over time this project will continuously improve in many different
               ways!
-            </p>
-            <p class="card-text">
+            </p>           
               <small class="text-muted"
                 ><a href="https://hax94.com/" class="btn btn-primary"
                   >Hax94</a
                 ></small
               >
-            </p>
+              <small class="text-muted"
+                ><a href="https://github.com/ellis8555/Apple-Jack/" class="btn btn-primary"
+                  >Github</a
+                ></small
+              >   
+              <p class="mt-2 card-text">Project details on github readme</p>        
           </div>
         </div>
       </div>
