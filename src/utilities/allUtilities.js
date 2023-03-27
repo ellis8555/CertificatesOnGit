@@ -10,6 +10,9 @@ import {
 } from "./user-input/submit-contact-form";
 import { cleanUp } from "./clean-up/clean-up";
 import { clearContactFormStyles } from "./clean-up/clear-form-styles";
+import { userNameValidator } from "./user-input/validation/valiation-tests/contact-comment-input";
+import { userCommentValidator } from "./user-input/validation/valiation-tests/contact-name-input";
+import { contactFormValidationTest } from "./user-input/validation/methods/validate-contact-form";
 export {
   createRouteContainer,
   appendAllElements,
@@ -21,4 +24,7 @@ export {
   submitContactMe,
   cleanUp,
   clearContactFormStyles,
+  userNameValidator,
+  userCommentValidator,
+  contactFormValidationTest,
 };
