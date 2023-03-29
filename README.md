@@ -4,19 +4,23 @@ Src-branch contains the development files and structure
 
 This project's build used webpack and sass. Postcss was used to auto prefix the css
 
-This project is located [here](https://ellis8555.github.io/CertificatesOnGit/)
+This project is located [here](https://ellis8555.github.io/CertificatesOnGit/))
 
-## Details
+---
 
-This project injects/removes html components into a #root div in index.html
+# images
 
-## images
+---
 
 1. If the image category has many images then in that folder either create or add to a .js file that holds all the import and exports for that group of images.
 2. './images/hobbies/web-dev/allWebdevImages.js' has example. In that folder an array of image objects was created used for looping through images so they can be injected dynamically
 3. If a particular folder has a master .js import/export file export those to the image folder's 'allImages.js' so they can all be imported from a single location
 
-## components
+---
+
+# components
+
+---
 
 1. create a .js file named as close as possible to what that component will be displaying
 2. import { createRouteContainer } from "/utilities/allUtilities" be sure to get the path correct
@@ -33,7 +37,11 @@ This project injects/removes html components into a #root div in index.html
 \***\*component specific methods\*\***
 place any of these methods into a folder that appends '-methods' to that folder's name
 
-## navbar
+---
+
+# navbar
+
+---
 
 to add a link requires two steps
 
