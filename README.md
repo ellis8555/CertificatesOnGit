@@ -4,13 +4,15 @@ Src-branch contains the development files and structure
 
 This project's build used webpack and sass. Postcss was used to auto prefix the css
 
-# Details
+This project is located [here](https://ellis8555.github.io/CertificatesOnGit/)
+
+## Details
 
 This project injects/removes html components into a #root div in index.html
 
 ---
 
-# images
+## images
 
 ---
 
@@ -20,7 +22,7 @@ This project injects/removes html components into a #root div in index.html
 
 ---
 
-# components
+## components
 
 ---
 
@@ -41,7 +43,7 @@ place any of these methods into a folder that appends '-methods' to that folder'
 
 ---
 
-# navbar
+## navbar
 
 ---
 
