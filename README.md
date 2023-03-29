@@ -1,8 +1,10 @@
 This project injects/removes html components into a #root div in index.html
 
+This project's home is located [here](https://ellis8555.github.io/CertificatesOnGit/)
+
 ---
 
-# images
+## images
 
 ---
 
@@ -12,7 +14,7 @@ This project injects/removes html components into a #root div in index.html
 
 ---
 
-# components
+## components
 
 ---
 
@@ -33,7 +35,7 @@ place any of these methods into a folder that appends '-methods' to that folder'
 
 ---
 
-# navbar
+## navbar
 
 ---
 
