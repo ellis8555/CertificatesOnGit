@@ -1,0 +1,5 @@
+the validate-<formName>-form.js scripts import there corresponding input field validation tests
+located in ../validation/<corresponding script>.js folder
+these scripts also import the submit method which is written in the corresponding forms
+submit form. 
+these are located in the root of ../../validation folder with a name like 'submit-contact-form.js'
