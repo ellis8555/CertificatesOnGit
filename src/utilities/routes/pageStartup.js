@@ -9,8 +9,12 @@ const pageStartup = (root, ...startElements) => {
   const isUserLoggedIn = isLoggedIn().isSignedIn;
   if (isUserLoggedIn) {
     const username = isLoggedIn().user.username;
+    // display user name on mediumn screens and larger
     const displayUsernameDiv = document.getElementById("loggedInUsername");
-    displayUsernameDiv.innerHTML = username;
+    displayUsernameDiv.innerHTML = `<span class="text-info">${username}</span>`;
+    // display username on xs and small screens
+    const mobileUsernameDisplayDiv = document.querySelector("#mobileLoggedIn");
+    mobileUsernameDisplayDiv.innerHTML = `Signed in: <span class="text-info">${username}</span>`;
   }
 
   // set appropriate click listeners on navbar items
