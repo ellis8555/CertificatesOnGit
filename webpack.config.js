@@ -9,6 +9,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.test\.js$/,
+        exclude: /__tests__/,
+        use: ["babel-loader"],
+      },
+      {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
@@ -22,7 +27,7 @@ module.exports = {
         use: ["html-loader"],
       },
       {
-        test: /\.(jpg|png|svg|ico)$/i,
+        test: /\.(jpg|png|svg|ico|webp)$/i,
         type: "asset/resource",
       },
       {
